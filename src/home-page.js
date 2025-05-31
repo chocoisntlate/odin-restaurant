@@ -1,5 +1,4 @@
-function loadPage() {
-    let content = document.getElementById("content")
+function displayHomePage(contentElement) {
     const htmlString = `
         <h1>
             This restaurant is like good or something.
@@ -9,7 +8,7 @@ function loadPage() {
             <li>"good price" - Ali</li>
         </ul>
     `
-    content.innerHTML = htmlString  
+    contentElement.innerHTML = htmlString  
 }
 
-export default loadPage
+export default displayHomePage
