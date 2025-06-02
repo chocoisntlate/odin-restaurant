@@ -1,7 +1,7 @@
 function displayContactPage(contentElement) {
     const htmlString = `
-        <p>Contact</p>
-        <p>Email</p>
+        <div class="contacts">Number: +66 82768767678987787</div>
+        <div class="contacts">Email: goodplace@restaurant.com</div>
     `
     contentElement.innerHTML = htmlString  
 }
